@@ -1,13 +1,12 @@
 class Animal:
-    
-    def __init__(self, type, size, age, name):
+    def __init__(self):
         self.type = ''
         self.size = ''
-        self.age = ''
+        self.age = 0
         self.name = ''
 
-    def speak():
+    def speak(self):
         pass
 
-    def describe():
+    def describe(self):
         pass
